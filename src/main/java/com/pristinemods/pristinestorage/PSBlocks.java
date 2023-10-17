@@ -14,7 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class PSBlocks {
     private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, PristineStorage.ID);
     
-    public static final RegistryObject<Block> PRISTINE_CHEST = BLOCKS.register(PristineChest.ID, () -> new PristineChest(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final RegistryObject<Block> PRISTINE_CHEST =  BLOCKS.register(PristineChest.ID, () -> new PristineChest(BlockBehaviour.Properties.of(Material.STONE)));
     public static final RegistryObject<Block> PRISTINE_CHEST2 = BLOCKS.register(PristineChest2.ID, () -> new PristineChest2(BlockBehaviour.Properties.of(Material.STONE)));
 
     public static void register() {
